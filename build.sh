@@ -10,6 +10,7 @@ Echo Building project
 GOOS=linux GOARCH=amd64 go build -o bin/bin/application application.go
 cd bin
 Echo Zipping files
+#zipping from a windows machine, change to zip with your system, or install 7-zip if you dont have it
 /c/Program\ Files/7-Zip/7z.exe a bin.zip \*
 cd ..
 Echo Deploying to server
