@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Documents/Projects/goWorkspace/src/train-benefit
+cd ~/Documents/Projects/goWorkspace/src/yourproject
 Echo Deleting old build if exists
 rm bin/bin/application
 Echo Deleting old build folder if exists

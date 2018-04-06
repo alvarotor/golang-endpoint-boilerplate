@@ -1,11 +1,11 @@
 branch-defaults:
   dep:
-    environment: trainBenefit-env-dev
+    environment: yourproject-env-dev
   develop:
-    environment: trainBenefit-env-dev
+    environment: yourproject-env-dev
     group_suffix: null
 global:
-  application_name: train-benefit
+  application_name: yourproject
   branch: develop
   default_ec2_keyname: null
   default_platform: Go
